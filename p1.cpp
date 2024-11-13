@@ -1,4 +1,4 @@
-// Tu Nombre
+// Sus nombres
 // Descripción
 
 #include <cassert>
@@ -16,6 +16,10 @@ int upperCaseCount(const string &st) {
   }
   return ctr;
 }
+
+// funcion testFunctions:
+// Esta función se encarga de hacer aserciones a cada una de las otras
+// funciones para verificar que devuelven lo esperado.
 
 void testFunctions() {
   // afirmaciones para validar upperCaseCount
